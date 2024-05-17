@@ -145,16 +145,65 @@
   <!-- Soal 6 -->
   <section class="container mt-5">
 
-  <form action="backend/soal6.php" method="POST">
-        <div class="input-group mb-3">
-            <span class="input-group-text" id="inputGroup-sizing-default">Masukkan Bilangan Lima Digit</span>
-            <input type="number" class="form-control" aria-label="Sizing example input" name="bilangan"
-                   aria-describedby="inputGroup-sizing-default" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Go</button>
+    <form action="backend/soal6.php" method="POST">
+      <div class="input-group mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">Masukkan Bilangan Lima Digit</span>
+        <input type="number" class="form-control" aria-label="Sizing example input" name="bilangan"
+          aria-describedby="inputGroup-sizing-default" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Go</button>
     </form>
 
   </section>
+
+  <!-- Soal 7 -->
+  <section class="container mt-5">
+
+    <form action="backend/soal7.php" method="POST">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Bilangan 1</span>
+        <input type="number" class="form-control" name="bilangan1" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Bilangan 2</span>
+        <input type="number" class="form-control" name="bilangan2" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Bilangan 3</span>
+        <input type="number" class="form-control" name="bilangan3" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Bilangan 4</span>
+        <input type="number" class="form-control" name="bilangan4" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Bilangan 5</span>
+        <input type="number" class="form-control" name="bilangan5" required>
+      </div>
+      <div class="input-group mb-3">
+        <span class="input-group-text">Bilangan 6</span>
+        <input type="number" class="form-control" name="bilangan6" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Periksa</button>
+    </form>
+
+  </section>
+
+  <!-- Soal 8 -->
+
+  <section class="container mt-5">
+
+  <form action="backend/soal8.php" method="POST">
+        <div class="input-group mb-3">
+            <span class="input-group-text">Menetukan Apakah Bilangan Prima atau Bukan</span>
+            <input type="number" class="form-control" name="bilangan" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Periksa</button>
+    </form>
+
+  </section>
+
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
@@ -163,4 +212,3 @@
 </body>
 
 </html>
-

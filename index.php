@@ -190,19 +190,42 @@
   </section>
 
   <!-- Soal 8 -->
-
+  <!-- Contoh Bilangan Prima 1,2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97 -->
   <section class="container mt-5">
 
-  <form action="backend/soal8.php" method="POST">
-        <div class="input-group mb-3">
-            <span class="input-group-text">Menetukan Apakah Bilangan Prima atau Bukan</span>
-            <input type="number" class="form-control" name="bilangan" required>
-        </div>
-        <button type="submit" class="btn btn-primary">Periksa</button>
+    <form action="backend/soal8.php" method="POST">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Menetukan Apakah Bilangan Prima atau Bukan</span>
+        <input type="number" class="form-control" name="bilangan" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Periksa</button>
     </form>
 
   </section>
 
+  <!-- Soal 9 -->
+
+  <section class="container mt-5">
+    <form action="backend/soal9.php" method="POST">
+      <div class="input-group mb-3">
+        <span class="input-group-text">Menampilkan Hasil Bagi Sebuah Bilangan yang Habis Dibagi 6 tapi Tidak Habis Dibagi 5</span>
+        <input type="number" class="form-control" name="bilangan" min="1" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Periksa</button>
+    </form>
+  </section>
+
+  <!-- Soal 9 -->
+
+  <section class="container mt-5">
+  <form action="backend/soal10.php" method="POST">
+        <div class="input-group mb-3">
+            <span class="input-group-text">Menampilkan Median dari Hasil Bagi Sebuah Bilangan yang Habis Dibagi 6 tapi Tidak Habis Dibagi 5</span>
+            <input type="number" class="form-control" name="bilangan" min="1" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Periksa</button>
+    </form>
+  </section>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
